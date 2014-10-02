@@ -1,0 +1,32 @@
+{
+  "name": "gandhi-said",
+  "version": "0.0.0",
+  "description": "Gandhi quotes on CLI a trribute to Gandhi!",
+  "license": "MIT",
+  "repository": "hemanth/gandhi-said",
+  "bin": {
+    "latest-version": "cli.js"
+  },
+  "author": {
+    "name": "Hemanth.HM",
+    "email": "hemanth.hm@gmail.com",
+    "url": "http://h3manth.com"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    "gandhi",
+    "quotes"
+  ],
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
